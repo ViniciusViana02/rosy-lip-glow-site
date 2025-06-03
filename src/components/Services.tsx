@@ -10,7 +10,6 @@ const Services = () => {
       title: 'Micropigmentação Labial Natural',
       description: 'Técnica que realça a cor natural dos lábios, proporcionando um resultado discreto e elegante.',
       duration: '2-3 horas',
-      price: 'A partir de R$ 400',
       features: ['Cor natural', 'Resultado discreto', 'Longa duração'],
       icon: Heart
     },
@@ -18,7 +17,6 @@ const Services = () => {
       title: 'Micropigmentação Labial Colorida',
       description: 'Para quem deseja mais intensidade, oferecemos cores vibrantes e modernas.',
       duration: '2-3 horas', 
-      price: 'A partir de R$ 450',
       features: ['Cores vibrantes', 'Efeito batom', 'Personalizado'],
       icon: Palette
     },
@@ -26,7 +24,6 @@ const Services = () => {
       title: 'Retoque e Manutenção',
       description: 'Mantenha seus lábios sempre perfeitos com nosso serviço de retoque.',
       duration: '1-2 horas',
-      price: 'A partir de R$ 200',
       features: ['Renovação da cor', 'Correções', 'Durabilidade'],
       icon: Sparkles
     }
@@ -75,9 +72,6 @@ const Services = () => {
                       Duração:
                     </span>
                     <span className="font-medium">{service.duration}</span>
-                  </div>
-                  <div className="text-center">
-                    <span className="text-2xl font-bold gradient-text">{service.price}</span>
                   </div>
                 </div>
 
